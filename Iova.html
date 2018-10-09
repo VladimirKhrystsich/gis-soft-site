@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class='container'>
+        <header>
+            <a href='site.html'>
+                <div class='logo'>
+                </div>
+            </a>
+            <menu class="menu">
+                <a href='portfolio.html'>
+                    <li>Portfolio</li>
+                </a>
+                <a href='career.html'>
+                    <li>Careers</li>
+                </a>
+            </menu>
+            <div class='lng-buttons'>
+                <label class="lang">
+                      <input type="radio" name="lang" checked onchange="change_language()">
+                      <span>EN</span>
+                    </label>
+                <label class="lang">
+                      <input type="radio" name="lang" onchange="change_language()">
+                      <span>RU</span>
+                    </label>
+            </div>
+        </header>
+        <main>
+            <div class="content-container">
+                <div class="content-wrapper">
+                    <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp page-content padding30px">
+                        <div class="career-heading">
+                            <h1 class='heading-text'>Iowa AEA: Iowa Library Portal</h1>
+                        </div>
+                        <div class="mdl-cell mdl-cell--10-col mdl-card__supporting-text no-padding ">
+                            <p id='description'>Iowa Library project allows easy access to school media resources acquired from a broad array of vendors. One of the prominent features of the product is flexible federated search solution that allows to keep up-to-date list of media resources and distribute it across according to the policies defined. It allows flexible collaboration between students and teachers using notes/quotes and discussion boards. It supports various bibliographic and cataloging formats which makes vendors metadata integration swift and effortless.To facilitate school student management system integration Iowa Library project was developed with Schools Interoperability Framework in mind. Iowa Library portal has its own reader applications that allow students and teachers to read any content (most popular media formats are supported) on any device (mobile and web version available). It makes easy access to educational information whenever you are. You can listen to audio books, watch video content, read your books accompanied by supplemental services such as translations/text-to-speech/bookmarks/notes/quotes and overall collaboration. For teachers it allows flexible and easy interface to prepare and distribute learning material among their students and keep track of the students’ learning advancement. Vendors, that integrate their resources, have capacity (via API) to receive timely feedback about resources usage. That allows better control and insights into material distributed.</p>
+                        </div>
+                        <div class="requirements-heading">
+                            <h3>Industry</h3>
+                        </div>
+                        <div class="requirments">
+                            <p>Education</p>
+                        </div>
+                        <div class='technologies-heading'>
+                            <h3>Technologies</h3>
+                        </div>
+                        <div class='technologies'>
+                            <p>Java 8 </p>
+                            <p>Dropwizard lightweight framework </p>
+                            <p>Hibernate orm </p>
+                            <p>JavaScript (SPA based on Angular JS framework) </p>
+                            <p>3rd party services (Google Translate; Amazon Polly; etc)</p>
+                        </div>
+                        <div class='we_offer-heading'>
+                            <h3>Scope of work</h3>
+                        </div>
+                        <div class='we_offer'>
+                            <p>Design and high level product architecture </p>
+                            <p>Functional and non-functional requirements development </p>
+                            <p>Product development  </p>
+                            <p>Product maintenance </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="cfx">
+        </div>
+    </div>
+
+    <footer>
+        <div class='contacts'>
+            <p>Contacts</p>
+            <div class='phone'>
+                <div class='phone-img'>
+                    <img src="img/phone.png" alt="phone-image">
+                </div>
+                <p><a>+375 29 236 27 09</a></p>
+            </div>
+            <div class='mail'>
+                <div class="mail-img">
+                    <a href="mailto:andrei.isakov@gicsoft-europe.com"><img src="img/envelope.png" alt="envelope-image"></a>
+                </div>
+                <p><a href="mailto:andrei.isakov@gicsoft-europe.com">andrei.isakov@gicsoft-europe.com</a></p>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="wrap-slider">
+                <ul>
+                    <li><img src="img/MYSQL2.png" alt="mysql-logo"></li>
+                    <li><img src="img/ANGULAR2.png" alt="angular-logo"></li>
+                    <li><img src="img/js2.png" alt="js-logo"></li>
+                    <li><img src="img/React.png" alt="react-logo"></li>
+                    <li><img src="img/sqlServer2.png" alt="sql-server-logo"></li>
+                    <li><img src="img/PHP.png" alt="php-logo"></li>
+                </ul>
+            </div>
+
+            <img id="prev" src='img/left-arrow.png'>
+            <img id="next" src='img/right-arrow.png'>
+        </div>
+
+        <div class="linkedin">
+            <div class="linkedin-img">
+                <a href="https://ru.linkedin.com/company/gicsoft-inc." target="_blank"><img src="img/linkedin1.png" alt="linkedin-logo"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src='carousel.js'>
+
+
+    </script>
+</body>
+
+</html>

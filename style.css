@@ -1,0 +1,1022 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.container {
+    min-height: calc(100% - 160px);
+    margin: 0px auto;
+    background: url(img/bg.png) no-repeat center;
+    background-size: 100%;
+    background-position: 50% 0%;
+}
+
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 1% auto;
+    margin-left: 14%;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/*-----------HEADER------------*/
+
+
+
+
+header {
+    width: 100%;
+    height: 100px;
+    font-size: 1.5em;
+    background-color: #63a0c6;
+    opacity: 0.9;
+}
+
+.logo {
+    width: 300px;
+    height: 100%;
+    margin: 0% 0%;
+    margin-left: 13%;
+    display: inline-block;
+    float: left;
+    background: url(img/gicsoftlogo.png) no-repeat center 50%;
+    background-size: 80%;
+
+}
+
+menu {
+    height: 50%;
+    margin-left: 50px;
+    display: inline-block;
+    margin: 40px 0px;
+
+}
+
+menu li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    display: inline;
+    margin: 0px 25px;
+}
+
+menu a {
+    text-decoration: none;
+}
+
+.lng-buttons {
+    float: right;
+    margin-top: 1.6%;
+    margin-right: 12.5%;
+}
+
+.lang {
+    background-color: #63a0c6;
+    font-size: 0;
+    line-height: 0;
+}
+
+.lang:last-child {
+    margin-right: 0;
+}
+
+.lang input {
+    display: none;
+}
+
+.lang span {
+    display: inline-block;
+    background-color: #63a0c6;
+    font: 16px/58px 'Roboto', 'Helvetica', sans-serif;
+    height: 52px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: white;
+}
+
+.lang input:checked + span {
+    background-color: #aed0e5;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.mail p:hover,
+.phone p:hover {
+    text-decoration: underline;
+}
+
+
+
+/*------------MAIN------------*/
+
+
+
+main {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+container:after {
+    content: '';
+    display: block;
+    height: 140px;
+}
+
+.heading {
+    margin: 3% 30% 0%;
+    margin-left: 30%;
+
+
+}
+
+.heading h1 {
+    color: #3188c6;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 5em;
+}
+
+.text {
+    width: 34%;
+    height: 70%;
+    margin: 1% 14% 0%;
+    color: #20475f;
+    font-size: 1.3em;
+
+}
+
+
+
+/*-----------FOOTER-----------*/
+
+
+
+.cfx {
+    width: 100%;
+    height: 140px;
+    opacity: 0;
+    background-color: transparent;
+    z-index: -100;
+    
+}
+
+footer {
+    width: 100%;
+    height: 140px;
+    background-color: #63a0c6;
+    padding-top: 25px;
+}
+
+.contacts {
+    margin-left: 14%;
+    display: inline-block;
+}
+
+.contacts p {
+    color: white;
+    font-size: 1.1em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    display: inline-block;
+}
+
+.contacts p:first-child {
+    font-size: 1.4em;
+}
+
+.phone {
+    color: white;
+}
+
+.phone-img {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+
+.phone-img img {
+    width: 85%;
+}
+
+.phone a {
+    color: #ffffff;
+}
+
+.mail-img {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+
+}
+
+.mail-img img {
+    width: 95%;
+}
+
+.mail a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.linkedin {
+    float: right;
+    margin-right: 12.5%;
+    margin-top: 1.4%;
+}
+
+
+
+
+/*---------career--------*/
+
+
+
+
+.content-card {
+    float: left;
+    margin: 15px 15px 0px;
+    width: 432px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+
+.page-content {
+    width: 1313px;
+}
+
+.heading-text {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    color: #20475f;
+    font-size: 1.3em;
+}
+
+.padding30px {
+    padding: 0px 0px 0px 30px;
+}
+
+.page-content p {
+    font-size: 1em;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.contacts-text a {
+    color: dimgray;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#description {
+    color: gray;
+    font-weight: 400;
+    position: relative;
+    right: 17px;
+}
+
+
+/*------------SLIDR---------------*/
+
+
+
+.slider {
+    text-align: left;
+    display: inline-block;
+    width: 750px;
+    padding: 0 30px;
+    background-color: transparent;
+    height: 100px;
+    position: relative;
+    bottom: 10px;
+}
+
+.slider #next,
+.slider #prev {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    height: 35px;
+    width: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: all .8s;
+    position: absolute;
+}
+
+.slider #next {
+    top: 40px;
+    right: 15px;
+}
+
+.slider #prev {
+    top: 40px;
+    left: 15px;
+}
+
+.slider #next:hover,
+.slider #prev:hover {
+    background-color: #fff;
+    color: #8EC5FC;
+}
+
+.wrap-slider {
+    width: 750px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.wrap-slider img {
+    width: 100%;
+}
+
+.slider ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    list-style: none;
+    width: 10000px;
+    transition: all .8s;
+}
+
+.slider li {
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+    width: 150px;
+    line-height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100px;
+    color: #fff;
+}
+
+
+
+
+/*-------MEDIA---------*/
+
+
+
+@media (max-width: 1700px) {
+    .logo {
+        margin-left: 11%;
+    }
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 12%;
+    }
+    
+    .linkedin {
+        margin-top: 1.6%;
+    }
+    
+    .content-card {
+        width: 410px;
+    }
+     
+}
+
+@media (max-width: 1600px) {
+    .logo{
+        margin-left: 7%;
+    }
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 8%;
+    }
+    
+    .linkedin {
+        margin-top: 1.8%;
+    }
+    .content-card {
+        width: 390px;
+    }
+     
+    
+}
+
+@media (max-width: 1540px) {
+    .logo{
+        margin-left: 4%;
+    }
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 5%;
+    }
+    
+    .linkedin {
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 1480px) {
+    .content-card {
+        width: 330px;
+    }
+    
+    .logo{
+        margin-left: 13%;
+    }
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 14%;
+    }
+    
+    .slider {
+        width: 450px;
+    }
+    
+    .wrap-slider {
+        width: 450px;
+    }
+    
+    .linkedin {
+        margin-top: 2.2%;
+    }
+    
+    .page-content {
+        width: 990px;
+    }
+    
+    .linkedin {
+        margin-right: 16%;
+    }
+    
+    .lng-buttons {
+    margin-right: 16%;
+    }
+}
+
+
+@media (max-width: 1380px) {
+    .linkedin {
+        margin-right: 12%;
+    }
+    
+    .lng-buttons {
+    margin-right: 12%;
+    }
+}
+
+@media (max-width: 1280px) {
+    
+    .logo{
+        margin-left: 7%;
+    }
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 8%;
+    }
+    
+    .linkedin {
+        margin-top: 2.4%;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .content-card {
+        width: 300px;
+    }
+ 
+    .linkedin {
+        margin-right: 10%;
+        margin-top: 2.6%;
+    }
+    
+    .lng-buttons {
+    margin-right: 10%;
+    }
+    
+     .page-content {
+        width: 920px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .logo{
+        margin-left: 1%;
+    }
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 2%;
+    }
+    
+    .linkedin {
+        margin-top: 2.8%;
+    }
+    
+   
+}
+
+@media (max-width: 1050px) {
+
+    .logo {
+        margin-left: 7%;
+    }
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 8%;
+    }
+    
+    .content-card {
+        width: 260px;
+    }
+    
+    .page-content {
+        width: 760px;
+    }
+    
+    .linkedin {
+        margin-right: 10%;
+    }
+    
+    .lng-buttons {
+    margin-right: 10%;
+    }
+    
+    .slider {
+        width: 300px;
+    }
+    .wrap-slider {
+        width: 300px;
+    }
+}
+
+@media (max-width: 990px) {
+
+  
+    .content-card {
+        width: 230px;
+    }
+    
+    .linkedin {
+        margin-top: 3%;
+    }
+    
+    .lng-buttons {
+    margin-top: 2%;       
+    }
+}
+
+@media (max-width: 900px) {
+
+    .content-card {
+        width: 360px;
+    }
+    
+    .logo {
+        margin-left: 4%;
+    }
+    
+    .lng-buttons {
+    margin-top: 2.2%;       
+    } 
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 5%;
+    }
+    
+    .page-content {
+        width: 740px;
+    }
+}
+
+@media (max-width: 840px) {
+
+    .content-card {
+        width: 340px;
+    }
+    .logo {
+        margin-left: 1%;
+    }
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 2%;
+    }
+    
+}
+
+@media (max-width: 800px) {
+
+    .content-card {
+        width: 330px;
+    }
+    
+    .linkedin {
+        margin-right: 6%;
+    }
+    
+    .lng-buttons {
+    margin-right: 6%;
+    }
+}
+
+@media (max-width: 780px) {
+
+    .slider {
+        display: none;
+    }
+    
+    .wrap-slider {
+        display: none;
+    }
+    
+    header {
+    height: 140px;
+    font-size: 1.5em;
+    }
+    
+    menu {
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 7%;
+    }
+    
+    menu li {
+    font-size: 1em;
+    }
+    
+    .lng-buttons {
+    position: absolute;
+    left: 69%;
+    top: 1.8%;
+    }
+    
+    .content-card {
+    width: 230px;
+    }
+    
+    .page-content {
+        width: 500px;
+    }
+    
+    .logo {
+    margin-left: 12%;
+    width: 250px;
+    height: 60%;
+    background-size: 90%;
+    }
+    
+    .contacts,
+    .content-wrapper {
+        margin-left: 14%;
+    }
+    
+    .linkedin {
+        margin-right: 18%;
+        margin-top: 4%;
+        }
+    }
+    
+    .lang span {
+    font: 14px/42px 'Roboto', 'Helvetica', sans-serif;
+    height: 42px;
+    min-width: 54px;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    menu {
+    position: absolute;
+    left: 52%;
+    top: 8%;
+    } 
+    
+    .lng-buttons {
+    margin-top: 1.6%;
+    margin-right: 0%;
+    position: absolute;
+    left: 72%;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    
+    .logo {
+            margin-left: 8%;
+        }
+
+    .contacts,
+    .content-wrapper {
+        margin-left: 9%;
+    }
+    
+    .linkedin {
+        margin-right: 12%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .logo {
+            margin-left: 4%;
+        }
+
+    .contacts,
+    .content-wrapper {
+        margin-left: 5%;
+    }
+    
+    .lng-buttons {
+    margin-top: 1.6%;
+    margin-right: 0%;
+    position: absolute;
+    left: 74%;
+    }
+    
+    menu {
+    position: absolute;
+    left: 51%;
+    top: 7%;
+    }
+}
+
+
+@media (max-width: 570px) {
+    
+    .logo {
+            margin-left: 1%;
+        }
+
+    .contacts,
+    .content-wrapper {
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 550px) {
+    
+    .logo {
+            margin-left: 0.3%;
+        }
+
+    .contacts,
+    .content-wrapper {
+        margin-left: 0.8%;
+    }
+    
+    .content-card {
+    width: 200px;
+    }
+    
+    .page-content {
+        width: 440px;
+    }
+    
+    .lng-buttons {
+    margin-top: 1.6%;
+    margin-right: 0%;
+    position: absolute;
+    left: 68%;
+    }
+    
+    menu {
+    position: absolute;
+    left: 40%;
+    }
+    
+    .linkedin {
+        margin-top: 6%;
+        margin-right: 14%;
+        }
+    
+}
+
+@media (max-width: 490px) {
+    
+    .content-card {
+    width: 390px;
+    }
+    
+    .page-content {
+        width: 400px;
+    }
+    
+    .logo {
+            margin-left: 5%;
+        }
+
+    .contacts,
+    .content-wrapper {
+        margin-left: 6%;
+    }
+    
+    menu {
+    position: absolute;
+    left: 42%;
+    }
+}
+
+@media (max-width: 470px) {
+    
+    .content-card {
+    width: 380px;
+    }
+    
+    .logo {
+            margin-left: 1%;
+        }
+
+    .contacts,
+    .content-wrapper {
+        margin-left: 2%;
+    }
+    
+    menu {
+    position: absolute;
+    left: 38%;
+    }
+    
+    .lng-buttons {
+    margin-top: 1.6%;
+    margin-right: 0%;
+    position: absolute;
+    left: 69%;
+    }
+    
+    .linkedin {
+        margin-top: 7%;
+        }
+}
+
+@media (max-width: 440px) {
+    
+    .content-card {
+    width: 350px;
+    }
+    
+    .page-content {
+        width: 350px;
+    }
+    
+    .logo {
+    width: 200px;
+    height: 60%;
+    background-size: 90%;
+    }
+    
+    menu {
+    position: absolute;
+    left: 33%;
+    }
+    
+    .lng-buttons {
+    position: absolute;
+    left: 71%;
+    }
+    
+    .lang span {
+    font: 12px/32px 'Roboto', 'Helvetica', sans-serif;
+    height: 32px;
+    min-width: 44px;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .content-card {
+    width: 320px;
+    }
+    
+    .page-content {
+        width: 320px;
+    }
+    
+    menu {
+    position: absolute;
+    left: 28%;
+    }
+    
+    .lng-buttons {
+    position: absolute;
+    left: 67%;
+    }
+    
+    .linkedin {
+    margin-top: 8%;
+    margin-right: 14%;
+    }
+   
+}
+
+@media (max-width: 380px) {
+ 
+    .content-card {
+    width: 290px;
+    }
+    
+    .page-content {
+        width: 290px;
+    }
+    
+    .logo {
+    width: 170px;
+    height: 50%;
+    background-size: 90%;
+    }
+    
+    menu {
+    position: absolute;
+    left: 22%;
+    }
+    
+    .lng-buttons {
+    position: absolute;
+    left: 65%;
+    }
+    
+    .linkedin {
+    margin-top: 8%;
+    margin-right: 8%;
+    position: relative;
+    bottom: 1%;
+    right: 17%;
+    }
+}
+
+@media (max-width: 350px) {
+ 
+    .content-card {
+    width: 260px;
+    }
+    
+    .page-content {
+        width: 260px;
+    }
+    
+    .linkedin {
+    display: none;
+    }
+    
+    menu {
+    left: 10%;
+    }
+    
+    .lng-buttons {
+    left: 60%;
+    }
+    
+}
+
+@media (max-width: 320px) {
+ 
+    .content-card {
+    width: 240px;
+    }
+    
+    menu {
+    left: 7%;
+    }
+    
+    .linkedin {
+    display: none;
+    }
+}
